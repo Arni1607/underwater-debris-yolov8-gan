@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+
+
+# Datasets - too large for git, download separately
+data/*
+!data/.gitkeep
+
+# Trained model weights - too large for git
+models/*.pt
+models/*.pth
+!models/.gitkeep
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Spyder/IDE files
+.spyderproject
+.spyproject
+
+# OS files
+.DS_Store
+Thumbs.db
